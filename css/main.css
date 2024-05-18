@@ -19,25 +19,25 @@ body{
 	height: 500px;
 }
 .crs-img-1{
-	background: url('../img/slider-img1.jpg');
+	background: url('../img/chandaria.jpeg');
 	background-size: cover;
 	background-position: center;
 	width:100%;
 }
 .crs-img-2{
-	background: url('../img/slider-img2.jpg');
+	background: url('../img/eldoret.jpg');
 	background-size: cover;
 	background-position: center;
 	width:100%;
 }
 .crs-img-3{
-	background: url('../img/slider-img3.jpg');
+	background: url('../img/radiotherapy.jpeg');
 	background-size: cover;
 	background-position: center;
 	width:100%;
 }
 .crs-img-4{
-	background: url('../img/slider-img4.jpg');
+	background: url('../img/eka.jpeg');
 	background-size: cover;
 	background-position: center;
 	width:100%;
@@ -121,10 +121,10 @@ body{
 	border-color: #000;
 }
 
-/*About Page*/
+/*Registration Page*/
 
-/*About Section*/
-#about{
+/*Registration Section*/
+#Registration{
 	background:url('../img/about/back.jpg');
 	background-attachment: fixed;
 	background-size: cover;
@@ -132,8 +132,8 @@ body{
 	min-height: 300px;
 	position: relative;
 }
-#about .inner-overlay, #services .inner-overlay, #blog .inner-overlay ,
-#contact .inner-overlay{
+#Registration .inner-overlay, #Feedback .inner-overlay, #Photo .inner-overlay ,
+#Correspondence .inner-overlay{
 	background:rgba(0,0,0,0.7);
 	position: absolute;
 	top: 0;
@@ -141,13 +141,13 @@ body{
 	width: 100%;
 	min-height: 300px;
 }
-#about-services .fas{
+#Registration-services .fas{
 	font-size:50px;
 }
 
-/*Services Section*/
-/*Services Header*/
-#services{
+ Section*/
+/*Feedback Header*/
+#Feedback{
 	background:url('../img/slider-img4.jpg');
 	background-attachment: fixed;
 	background-size: cover;
@@ -156,13 +156,13 @@ body{
 	position: relative;
 }
 
-#services-faq{
+#Feedback-faq{
 	height: 400px;
 }
-#services-faq .card{
+#Feedback-faq .card{
 	cursor: pointer;
 }
-#blog{
+#Photo{
 	background:url('../img/video.jpg');
 	background-attachment: fixed;
 	background-size: cover;
@@ -170,11 +170,11 @@ body{
 	min-height: 300px;
 	position: relative;
 }
-#blog-post img{
+#Photo-post img{
 	height: 200px;
 	width: 100%;
 }
-#contact{
+#Correspondence{
 	background:url('../img/gallery7.jpg');
 	background-attachment: fixed;
 	background-size: cover;
@@ -205,16 +205,16 @@ body{
 		font-size: 20px;
 		margin-bottom: 5px;
 	}
-	#about-services .card {
+	#Registration-Feedback .card {
 		margin: 5px 0;
 	}
-	#services-faq h5{
+	#Feedback-faq h5{
 		font-size: 13px;
 	}
-	#services-faq p{
+	#Feedback-faq p{
 		font-size: 10px;
 	}
-	#services-table .text-center.display-4 {
+	#Feedback-table .text-center.display-4 {
 		font-size: 30px;
 	}
 }
@@ -244,7 +244,7 @@ body{
 		margin-left: 50px;
 	}
 
-	#services-faq{
+	#Feedback-faq{
 		height: 600px;
 	}
 }
