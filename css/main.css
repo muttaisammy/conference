@@ -5,7 +5,7 @@ body{
 
 }
 .navbar {
-	background:#000;
+	background:#344C64;
 }
 .navbar-nav  li a:hover {
 	color:#fff !important;
@@ -25,19 +25,19 @@ body{
 	width:100%;
 }
 .crs-img-2{
-	background: url('../img/eldoret.jpg');
+	background: url('../img/eld.jpg');
 	background-size: cover;
 	background-position: center;
 	width:100%;
 }
 .crs-img-3{
-	background: url('../img/radiotherapy.jpeg');
+	background: url('../img/hiv.jpeg');
 	background-size: cover;
 	background-position: center;
 	width:100%;
 }
 .crs-img-4{
-	background: url('../img/eka.jpeg');
+	background: url('../img/aids.png');
 	background-size: cover;
 	background-position: center;
 	width:100%;
@@ -52,7 +52,7 @@ body{
 
 /*Get Started*/
 #get-started{
-	background:url('../img/showcase2.jpg');
+	background:url('../img/eldoret.jpg');
 	background-attachment: fixed;
 	background-size: cover;
 	position: relative;
@@ -60,7 +60,7 @@ body{
 	min-height: 250px;
 }
 #get-started .inner-overlay{
-	background:rgba(0,0,0,0.7);
+	background:#344C64;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -79,7 +79,7 @@ body{
 /*Video*/
 #video{
 	position: relative;
-	background:url('../img/video.jpg');
+	background:url('../img/eka.jpeg');
 	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -92,10 +92,10 @@ body{
 	top: 0;
 	left: 0;
 	width: 100%;
-	background: rgba(0,0,0,0.7);
+	background: #344C64;
 }
 #video .fas{
-	color: #ff0000;
+	color: #FDDE55;
 	font-size: 50px;
 }
 
@@ -108,24 +108,24 @@ body{
 
 /*Footer*/
 #footer{
-	background:#000;
+	background:#344C64;
 }
 #footer .fab{
 	font-size:25px;
 	color:#fff;
-	border: 1px solid #7f8c8d;
+	border: 1px solid #344C64;
 	padding: 5px;
 }
 #footer .fab:hover{
-	color: #ff0000;
-	border-color: #000;
+	color: #FDDE55;
+	border-color: #344C64;
 }
 
 /*Registration Page*/
 
 /*Registration Section*/
 #Registration{
-	background:url('../img/about/back.jpg');
+	background:url('../img/eldoret.jpg');
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -134,7 +134,7 @@ body{
 }
 #Registration .inner-overlay, #Feedback .inner-overlay, #Photo .inner-overlay ,
 #Correspondence .inner-overlay{
-	background:rgba(0,0,0,0.7);
+	background:#344C64;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -148,7 +148,7 @@ body{
  Section*/
 /*Feedback Header*/
 #Feedback{
-	background:url('../img/slider-img4.jpg');
+	background:url('../img/radiotherapy.jpeg');
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -163,7 +163,7 @@ body{
 	cursor: pointer;
 }
 #Photo{
-	background:url('../img/video.jpg');
+	background:url('../img/pepfar.png');
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -175,7 +175,7 @@ body{
 	width: 100%;
 }
 #Correspondence{
-	background:url('../img/gallery7.jpg');
+	background:url('../img/ampath.jpeg');
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
