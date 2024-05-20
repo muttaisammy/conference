@@ -1,9 +1,7 @@
 html{
 	scroll-behavior: smooth;
 }
-body{
 
-}
 .navbar {
 	background:#344C64;
 }
@@ -25,23 +23,18 @@ body{
 	width:100%;
 }
 .crs-img-2{
-	background: url('../img/eld.jpg');
+	background: url('../img/banner.png');
 	background-size: cover;
 	background-position: center;
 	width:100%;
 }
 .crs-img-3{
-	background: url('../img/hiv.jpeg');
+	background: url('../img/hiv_aids.png');
 	background-size: cover;
 	background-position: center;
 	width:100%;
 }
-.crs-img-4{
-	background: url('../img/aids.png');
-	background-size: cover;
-	background-position: center;
-	width:100%;
-}
+
 
 
 /*Showcase*/
