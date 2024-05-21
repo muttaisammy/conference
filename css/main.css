@@ -14,7 +14,7 @@ html{
 
 /*Slider*/
 .carousel-item{
-	height: 500px;
+	height: 300px;
 }
 .crs-img-1{
 	background: url('../img/chandaria.jpeg');
@@ -69,28 +69,7 @@ html{
 	border-radius: 5px;
 }
 
-/*Video*/
-#video{
-	position: relative;
-	background:url('../img/eka.jpeg');
-	background-size: cover;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	min-height: 300px;
 
-}
-#video .video-overlay{
-	position: absolute;
-	min-height: 300px;
-	top: 0;
-	left: 0;
-	width: 100%;
-	background: #344C64;
-}
-#video .fas{
-	color: #FDDE55;
-	font-size: 50px;
-}
 
 /*Gallery*/
 #gallery img{
@@ -141,7 +120,7 @@ html{
  Section*/
 /*Feedback Header*/
 #Feedback{
-	background:url('../img/radiotherapy.jpeg');
+	background-image:url('img/radiotherapy.jpeg');
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -156,7 +135,7 @@ html{
 	cursor: pointer;
 }
 #Photo{
-	background:url('../img/pepfar.png');
+	background-image: url('img/ampath.jpeg');
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -168,7 +147,7 @@ html{
 	width: 100%;
 }
 #Correspondence{
-	background:url('../img/ampath.jpeg');
+	background-image:url('img/ampath.jpeg');
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
