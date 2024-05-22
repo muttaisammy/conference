@@ -17,7 +17,7 @@
 	<nav class="navbar navbar-dark navbar-expand-lg"  uk-sticky="top:100; animation: uk-animation-slide-top; bottom: #sticky-on-scroll-up">
 		<div class="container">
 			<a href="index.html" class="navbar-brand">
-				<img src="img/ampath.jpeg" class="img-fluid p-0" style="width: 35%; filter: brightness(0) invert(1);">
+				<img src="img/USAID AMPATH Uzima.png" class="img-fluid p-0" style="width: 35%; filter: brightness(0) invert(1);">
 				<div class="ml-2 p-0 d-inline webT">Ampath</div>
 			</a>
 			<button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navBar">
@@ -50,45 +50,198 @@
 	</nav>
 	<!-- Nav Section End -->
 
-	
-	<!-- Registration Section Start -->
-	<section id="Registration"   class="text-center py-5 text-light">
-		<div class="inner-overlay">
-			<div class="container">
-				<div class="row">
-					<div class="col mt-5 pt-4">
-						<h1 class="text-light">Registration</h1 >
-						<p class="lead">
-							Test.
-						</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- Registration Section End -->
 
-	<!-- Info Section Start -->
+
+<!-- registration start -->
+
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr" xmlns:th="http://www.w3.org/1999/xhtml">
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- ===============================================-->
+    <!--    Document Title-->
+    <!-- ===============================================-->
+    <title>AMPATH</title>
+
+    <!-- ===============================================-->
+    <!--    Favicons-->
+    <!-- ===============================================-->
+    <link rel="apple-touch-icon" sizes="180x180" th:href="@{/themes/assets/img/favicons/apple-touch-icon.png}">
+    <link rel="icon" type="image/png" sizes="32x32" th:href="@{/themes/assets/img/favicons/favicon-32x32.png}">
+    <link rel="icon" type="image/png" sizes="16x16" th:href="@{/themes/assets/img/favicons/favicon-16x16.png}">
+    <link rel="shortcut icon" type="image/x-icon" th:href="@{/themes/assets/img/favicons/favicon.ico}">
+    <link rel="manifest" th:href="@{/themes/assets/img/favicons/manifest.json}">
+    <meta name="msapplication-TileImage" content="assets/img/favicons/mstile-150x150.png">
+    <meta name="theme-color" content="#ffffff">
+    <script th:src="@{/themes/vendors/imagesloaded/imagesloaded.pkgd.min.js}"></script>
+    <script th:src="@{/themes/assets/js/config.js}"></script>
+
+    <!-- ===============================================-->
+    <!--    Stylesheets-->
+    <!-- ===============================================-->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&amp;display=swap" rel="stylesheet">
+    <link th:href="@{/themes/assets/css/theme.min.css}" type="text/css" rel="stylesheet" id="style-default">
+    <link th:href="@{/themes/assets/css/user.min.css}" type="text/css" rel="stylesheet" id="user-style-default">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+      document.documentElement.classList.remove('dark');
+    </script>
+</head>
+
+<body>
+<!-- ===============================================-->
+<!--    Main Content-->
+<!-- ===============================================-->
+
+    <section class="py-0">
+        <div class="bg-holder" style="background-image:url(assets/img/bg/bg-24.png);background-position:center;background-size:auto;"></div>
+        <!--/.bg-holder-->
+        <div class="container-lg position-relative">
+            <div class="row flex-center">
+                            <div class="col-12 col-xl-12 order-1 order-xl-0">
+                                <div class="mb-9">
+                                    <div class="card shadow-none border border-300 my-4" data-component-card="data-component-card">
+                                        <div class="card-header p-4 border-bottom border-300 bg-soft">
+                                            <div class="row g-3 justify-content-between align-items-center">
+                                                <div class="col-12 col-md">
+                                                    <h4 class="text-900 mb-0" data-anchor="data-anchor"> Registration </h4>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                            <div class="p-4 code-to-copy">
+                                                <form class="row g-3" th:action="@{/abstracts/call}" th:object="${abstracts}" method="POST" enctype="multipart/form-data" >
+                                                    <div class="col-md-12">
+                                                        <label class="form-label" for="txtTitle">Prefix Prof, Dr, Mr,etc </label>
+                                                        <input class="form-control" id="txtTitle" type="text" th:field="*{title}" required="required" />
+                                                    </div>
+                                 
+                                                    <div class="col-md-4">
+                                                        <label class="form-label" for="author">Name {First} {Second}</label>
+                                                        <input class="form-control" id="author" type="text" value="" th:field="*{mainauthor}" required="required" />
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <label class="form-label" for="validationCustom02">County</label>
+                                                        <input class="form-control" id="validationCustom02" type="text" value="" th:field="*{coauthor}" required="required" />
+                                                    </div>
+
+                                                    <div class="col-md-6">
+                                                        <label class="form-label" for="email">Designation</label>
+                                                        <input class="form-control" id="email" type="email" required="required" th:field="*{email}" />
+
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <label class="form-label" for="phone">Presenting an Abstract? {Yes/No}</label>
+                                                        <input class="form-control" id="phone" type="text" required="required" th:field="*{phone}" />
+
+                                                    </div>
+
+                                                    <div class="col-md-4">
+                                                        <label class="form-label" for="author">If Yes, Abstract Title</label>
+                                                        <input class="form-control" id="author" type="text" value="" th:field="*{mainauthor}" required="required" />
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <label class="form-label" for="validationCustom02">Date of Travel</label>
+                                                        <input class="form-control" id="validationCustom02" type="text" value="" th:field="*{coauthor}" required="required" />
+                                                    </div>
+
+                                                    <div class="col-md-6">
+                                                        <label class="form-label" for="email">Email Address</Address></label>
+                                                        <input class="form-control" id="email" type="email" required="required" th:field="*{email}" />
+
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <label class="form-label" for="phone">Phone Number</label>
+                                                        <input class="form-control" id="phone" type="text" required="required" th:field="*{phone}" />
+
+                                                    </div>
+ 
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <button class="btn btn-primary" type="submit">Submit form</button>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+</main><!-- ===============================================-->
+<!--    End of Main Content-->
+<!-- ===============================================-->
+<script>
+$(document).ready(function() {
+if (document.getElementById("txtmsg").value == 0) {
+}
+else if (document.getElementById("txtmsg").value == 2) {
+
+          Swal.fire({
+          icon: "error",
+          title: "Oops...",
+          text: "Something went wrong! Try Again !!"
+        });
+    } else{
+        Swal.fire({
+          icon: "success",
+          title: "Submitted Successful",
+          text: "Abstract Submitted Successfully..."
+        });
+
+    }
+ });
+
+</script>
+
+
+<!-- ===============================================-->
+<!--    JavaScripts-->
+<!-- ===============================================-->
+<script th:src="@{/themes/vendors/popper/popper.min.js}"></script>
+<script th:src="@{/themes/vendors/bootstrap/bootstrap.min.js}"></script>
+<script th:src="@{/themes/vendors/anchorjs/anchor.min.js}"></script>
+<script th:src="@{/themes/vendors/is/is.min.js}"></script>
+<script th:src="@{/themes/vendors/lodash/lodash.min.js}"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
+<script src="assets/js/phoenix.js"></script>
+<script src="assets/js/showcase.js"></script>
+</body>
+</html>
+
+<!--Registration end -->
+
+
+
+	<!-- Info Section Start 
 	<section id="Registration" class="py-5 my-5">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6 col-md-6  align-self-center">
-					<h1>Conference</h1>
+					<h1>Best Practice Portal</h1>
 					<p class="lead">
 						Test.
 					</p>
-					<p class="lead">
-						Test.
-					</p>
+					
 				</div>
-				<div class="col-lg-6 col-md-6 align-self-center text-center">
-					<img src="img/pepfar.png" 
-					class="img-fluid w-50 h-70 rounded-circle">
-				</div>
+				
 			</div>
 		</div>
 	</section>
-	<!-- Registration Info Section End -->
+	Registration Info Section End -->
 
 	
 <!-- Footer Section Start -->
@@ -98,21 +251,7 @@
 			<div class="col">
 				<h2 class="display-5 mb-0 text-light">Ampath</h2>
 				<div class="d-flex flex-row justify-content-center p-3">
-					<div class="px-5">
-						<a href="#">
-							<i class="fab fa-facebook-f"></i>
-						</a>
-					</div>
-					<div class="px-5">
-						<a href="#">
-							<i class="fab fa-linkedin-in"></i>
-						</a>
-					</div>
-					<div class="px-5">
-						<a href="#">
-							<i class="fab fa-twitter"></i>
-						</a>
-					</div>
+					
 				</div>
 			</div>
 		</div>
