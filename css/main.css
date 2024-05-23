@@ -4,6 +4,16 @@ html{
 
 .navbar {
 	background:#344C64;
+	padding-top: auto;
+	padding: auto;
+	padding-bottom: auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin: auto;
+	position: relative;
+}
+.navbar navbar-dark navbar-expand-lg {
+	padding: auto;
 }
 .navbar-nav  li a:hover {
 	color:#fff !important;
@@ -14,7 +24,7 @@ html{
 
 /*Slider*/
 .carousel-item{
-	height: 300px;
+	height: 400px;
 }
 .crs-img-1{
 	background: url('../img/chandaria.jpeg');
@@ -23,13 +33,13 @@ html{
 	width:100%;
 }
 .crs-img-2{
-	background: url('../img/banner.png');
+	background: url('../img/USAID AMPATH Uzima.png');
 	background-size: cover;
 	background-position: center;
 	width:100%;
 }
 .crs-img-3{
-	background: url('../img/_aids.png');
+	background: url('../img/confg3.jpg');
 	background-size: cover;
 	background-position: center;
 	width:100%;
@@ -81,17 +91,18 @@ html{
 /*Footer*/
 #footer{
 	background:#344C64;
+	margin-bottom: 0%;
+	margin-top: 200px;
+	position: relative;
 }
 #footer .fab{
 	font-size:25px;
 	color:#fff;
 	border: 1px solid #344C64;
 	padding: 5px;
+	text-align: center;
 }
-#footer .fab:hover{
-	color: #FDDE55;
-	border-color: #344C64;
-}
+
 
 /*Registration Page*/
 
@@ -126,6 +137,13 @@ html{
 	background-repeat: no-repeat;
 	min-height: 300px;
 	position: relative;
+}
+#btn btn-primary .row g-3{
+	position: center;
+	position: inherit;
+	margin-left: 20px;
+	margin: auto;
+	margin-top: 40px;
 }
 
 #Feedback-faq{

@@ -121,8 +121,8 @@
                                             <div class="p-4 code-to-copy">
                                                 <form class="row g-3" th:action="@{/abstracts/call}" th:object="${abstracts}" method="POST" enctype="multipart/form-data" >
                                                     <div class="col-md-12">
-                                                        <label class="form-label" for="txtTitle">Prefix Prof, Dr, Mr,etc </label>
-                                                        <input class="form-control" id="txtTitle" type="text" th:field="*{title}" required="required" />
+                                                        <label class="form-label" for="txtPrefix">Prefix {Prof, Dr, Mr,etc} </label>
+                                                        <input class="form-control" id="txtPrefix" type="text" th:field="*{Prefix}" required="required" />
                                                     </div>
                                  
                                                     <div class="col-md-4">
@@ -133,12 +133,11 @@
                                                         <label class="form-label" for="validationCustom02">County</label>
                                                         <input class="form-control" id="validationCustom02" type="text" value="" th:field="*{coauthor}" required="required" />
                                                     </div>
-
-                                                    <div class="col-md-6">
-                                                        <label class="form-label" for="email">Designation</label>
-                                                        <input class="form-control" id="email" type="email" required="required" th:field="*{email}" />
-
+                                                    <div class="col-md-4">
+                                                        <label class="form-label" for="validationCustom02">Designation</label>
+                                                        <input class="form-control" id="validationCustom02" type="text" value="" th:field="*{coauthor}" required="required" />
                                                     </div>
+                                                    
                                                     <div class="col-md-6">
                                                         <label class="form-label" for="phone">Presenting an Abstract? {Yes/No}</label>
                                                         <input class="form-control" id="phone" type="text" required="required" th:field="*{phone}" />
