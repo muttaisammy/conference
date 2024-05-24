@@ -29,17 +29,20 @@ html{
 	height: 400px;
 }
 .crs-img-1{
+	background: url('../confg2.jpg');
+	background-size: cover;
+	background-position: center;
+	width:100%;
+}
+
+.crs-img-2{
 	background: url('../img/USAID AMPATH Uzima.png');
 	background-size: cover;
 	background-position: center;
 	width:100%;
 }
-.crs-img-2{
-	background: url('../img/chandaria1.jpeg');
-	background-size: cover;
-	background-position: center;
-	width:100%;
-}
+
+
 
 
 
