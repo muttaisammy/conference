@@ -102,7 +102,7 @@
 <!-- ===============================================-->
 
     <section class="py-0">
-        <div class="bg-holder" style="background-image:url(assets/img/bg/bg-24.png);background-position:center;background-size:auto;"></div>
+        <div class="bg-holder" style="background-image:url(assets/img/bg/bg-24.png);background-position:center;background-size:auto;" ></div>
         <!--/.bg-holder-->
         <div class="container-lg position-relative">
             <div class="row flex-center">
@@ -118,7 +118,7 @@
                                             </div>
                                         </div>
 
-                                            <div class="p-4 code-to-copy">
+                                            <div class="p-4 code-to-copy" style="background-color: #87ceeb">
                                                 <form class="row g-3" th:action="@{/abstracts/call}" th:object="${abstracts}" method="POST" enctype="multipart/form-data" >
                                                     <div class="col-md-12">
                                                         <label class="form-label" for="txtPrefix">Prefix {Prof, Dr, Mr,etc} </label>

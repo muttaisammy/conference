@@ -1,7 +1,9 @@
 html{
 	scroll-behavior: smooth;
 }
-
+.py-0{
+	background-color: #87ceeb;
+}
 .navbar {
 	background:#344C64;
 	padding-top: auto;
@@ -27,23 +29,18 @@ html{
 	height: 400px;
 }
 .crs-img-1{
-	background: url('../img/chandaria.jpeg');
-	background-size: cover;
-	background-position: center;
-	width:100%;
-}
-.crs-img-2{
 	background: url('../img/USAID AMPATH Uzima.png');
 	background-size: cover;
 	background-position: center;
 	width:100%;
 }
-.crs-img-3{
-	background: url('../img/confg3.jpg');
+.crs-img-2{
+	background: url('../img/chandaria1.jpeg');
 	background-size: cover;
 	background-position: center;
 	width:100%;
 }
+
 
 
 
@@ -63,7 +60,7 @@ html{
 	min-height: 250px;
 }
 #get-started .inner-overlay{
-	background:#344C64;
+	background:#87ceeb;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -117,7 +114,7 @@ html{
 }
 #Registration .inner-overlay, #Feedback .inner-overlay, #Photo .inner-overlay ,
 #Correspondence .inner-overlay{
-	background:#344C64;
+	background:#87ceeb;
 	position: absolute;
 	top: 0;
 	left: 0;
