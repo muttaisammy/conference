@@ -117,7 +117,7 @@ html{
 }
 #Registration .inner-overlay, #Feedback .inner-overlay, #Photo .inner-overlay ,
 #Correspondence .inner-overlay{
-	background:#87ceeb;
+	background:#999999;
 	position: absolute;
 	top: 0;
 	left: 0;
