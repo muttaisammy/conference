@@ -2,10 +2,10 @@ html{
 	scroll-behavior: smooth;
 }
 .py-0{
-	background-color: 	#999999;
+	background-color: 	#c3fbf9;
 }
 .navbar {
-	background:	#999999;
+	background:	#c3fbf9;
 	padding-top: auto;
 	padding: auto;
 	padding-bottom: auto;
@@ -18,7 +18,7 @@ html{
 	padding: auto;
 }
 .navbar-nav  li a:hover {
-	color:d4a373 !important;
+	color:#c3fbf9 !important;
 }
 .navbar .webT{
 	font-size: 20px;
@@ -63,7 +63,7 @@ html{
 	min-height: 250px;
 }
 #get-started .inner-overlay{
-	background:#F3E5AB;
+	background:#c3fbf9;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -90,15 +90,15 @@ html{
 
 /*Footer*/
 #footer{
-	background:#F3E5AB;
+	background:#c3fbf9;
 	margin-bottom: 0%;
 	margin-top: 200px;
 	position: relative;
 }
 #footer .fab{
 	font-size:25px;
-	color:#8ecae6;
-	border: 1px solid #F3E5AB;
+	color:#c3fbf9;
+	border: 1px solid #c3fbf9;
 	padding: 5px;
 	text-align: center;
 }
@@ -117,7 +117,7 @@ html{
 }
 #Registration .inner-overlay, #Feedback .inner-overlay, #Photo .inner-overlay ,
 #Correspondence .inner-overlay{
-	background:#999999;
+	background:#c3fbf9;
 	position: absolute;
 	top: 0;
 	left: 0;
