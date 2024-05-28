@@ -2,10 +2,10 @@ html{
 	scroll-behavior: smooth;
 }
 .py-0{
-	background-color: #87ceeb;
+	background-color: 	#999999;
 }
 .navbar {
-	background:#344C64;
+	background:	#999999;
 	padding-top: auto;
 	padding: auto;
 	padding-bottom: auto;
@@ -18,7 +18,7 @@ html{
 	padding: auto;
 }
 .navbar-nav  li a:hover {
-	color:#fff !important;
+	color:d4a373 !important;
 }
 .navbar .webT{
 	font-size: 20px;
@@ -36,7 +36,7 @@ html{
 }
 
 .crs-img-2{
-	background: url('../img/USAID AMPATH Uzima.png');
+	background: url('../img/chandaria1.jpeg');
 	background-size: cover;
 	background-position: center;
 	width:100%;
@@ -63,7 +63,7 @@ html{
 	min-height: 250px;
 }
 #get-started .inner-overlay{
-	background:#87ceeb;
+	background:#F3E5AB;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -90,15 +90,15 @@ html{
 
 /*Footer*/
 #footer{
-	background:#344C64;
+	background:#F3E5AB;
 	margin-bottom: 0%;
 	margin-top: 200px;
 	position: relative;
 }
 #footer .fab{
 	font-size:25px;
-	color:#fff;
-	border: 1px solid #344C64;
+	color:#8ecae6;
+	border: 1px solid #F3E5AB;
 	padding: 5px;
 	text-align: center;
 }
