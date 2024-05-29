@@ -41,7 +41,9 @@
 					<li class="nav-item">
 						<a class="nav-link" href="Correspondence.html">Correspondence</a>
 					</li>
-                    
+                    <li class="nav-item">
+						<a class="nav-link" href="Archives.html">Archives</a>
+					</li>
 					
 
 				</ul>
@@ -121,12 +123,12 @@
                                             <div class="p-4 code-to-copy" style="background-color: #87CEEB">
                                                 <form class="row g-3" th:action="@{/abstracts/call}" th:object="${abstracts}" method="POST" enctype="multipart/form-data" >
                                                     <div class="col-md-12">
-                                                        <label class="form-label" for="txtPrefix">Prefix {Prof, Dr, Mr,etc} </label>
+                                                        <label class="form-label" for="txtPrefix">Prefix </label>
                                                         <input class="form-control" id="txtPrefix" type="text" th:field="*{Prefix}" required="required" />
                                                     </div>
                                  
                                                     <div class="col-md-4">
-                                                        <label class="form-label" for="author">Name {First} {Second}</label>
+                                                        <label class="form-label" for="author">Name </label>
                                                         <input class="form-control" id="author" type="text" value="" th:field="*{mainauthor}" required="required" />
                                                     </div>
                                                     <div class="col-md-4">
@@ -225,24 +227,7 @@ else if (document.getElementById("txtmsg").value == 2) {
 
 
 
-	<!-- Info Section Start 
-	<section id="Registration" class="py-5 my-5">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6 col-md-6  align-self-center">
-					<h1>Best Practice Portal</h1>
-					<p class="lead">
-						Test.
-					</p>
-					
-				</div>
-				
-			</div>
-		</div>
-	</section>
-	Registration Info Section End -->
-    Registration
-
+	
 
     <div class=""></div>
 	
