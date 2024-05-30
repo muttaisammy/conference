@@ -1,18 +1,13 @@
 ## Ampath
-This is a business promotional website of a company. It's a mulitpage website with minimum 5-7 section in every single page. The site is fully responsive and designed with HTML, CSS and Bootstrap. 
+This is a Portal that receives  absrtarcts for research work in Usaid Ampath Uzima
 
 ## Demo
 - Live
     - [Ampath](https://https://conference-orcin.vercel.app/)
 
-## How To Contribute
-- Fork the repository.
-- Make your changes.
-- Commit your changes.
-- Create a pull request.
-- Wait for the pull request to be merged.
 
-**Note:** If you want to do a major changes than first create an Issue.
+
+**Note:** If you want to do a major change than first create an Issue.
 
 ## License
 This project is licensed under [GPL-3.0](https://conference-orcin.vercel.app/).
